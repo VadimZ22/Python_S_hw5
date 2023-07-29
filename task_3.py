@@ -6,7 +6,7 @@ def fibo_func(n):
     next_num = None
 
 
-    for i in range(n+1):
+    for i in range(n):
         yield previos_num
         next_num = previos_num + current_num
         previos_num = current_num
